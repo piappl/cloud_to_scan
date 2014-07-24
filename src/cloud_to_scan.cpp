@@ -130,9 +130,9 @@ private:
 
     for (PointCloud::const_iterator it = cloud->begin(); it != cloud->end(); ++it)
     {
-      const float &x = it->x;
-      const float &y = it->y;
-      const float &z = it->z;
+      const float &x = -it->y;
+      const float &y = -it->z;
+      const float &z = it->x;
 
       if ( std::isnan(x) || std::isnan(y) || std::isnan(z) )
       {
