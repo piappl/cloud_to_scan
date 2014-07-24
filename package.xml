@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+  <name>cloud_to_scan</name>
+  <version>0.0.0</version>
+  <description> Converts a 3D Point Cloud into a 2D laser scan.  This is useful for making devices like the Kinect appear like a laser scanner for 2D-based algorithms (e.g. laser-based SLAM).
+</description>
+
+  <maintainer email="jczarnowski@piap.pl">Jan Czarnowski</maintainer>
+
+  <license>bsd</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+
+<!--
+  <run_depend>dynamic_reconfigure</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>pcl_ros</run_depend>
+-->
+</package>
